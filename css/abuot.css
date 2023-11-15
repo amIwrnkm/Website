@@ -1,0 +1,42 @@
+section{
+    display: inline-block;
+    width: 70%;
+}
+section a{
+    color: #3B83F6;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: B titr;
+}
+#S{
+    margin-top: 0%;
+}
+section div{
+    margin-top: 80px;
+}
+section p{
+    font-family: B kamran;
+    font-size: 30px;
+    font-weight: bold;
+}
+.titr{
+    font-family: iranyekanBakh;
+    font-weight: bolder;
+    font-size: 35px;
+}
+#m1{
+    text-align: right;
+}
+.m21{
+    text-align: right;
+}
+.m22{
+    text-align: left;
+}
+.am{
+    font-size: 18px;
+}
+.am:hover{
+    color: #334755;
+}
+
