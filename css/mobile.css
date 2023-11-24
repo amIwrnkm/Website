@@ -1,0 +1,12 @@
+aside{
+    display: none;
+}
+article{
+    width: 80%;
+    margin: 10px;
+}
+
+#search-box{width: 23%;}
+#logosite{width: 95%;height: 80px;}
+
+.paksaz{left: 30%;}

@@ -1,32 +1,38 @@
-a{
-    text-decoration: none;
-    color: white;
-}
+a   {text-decoration: none;
+    color: white;}
 .img{
     width: 25px;
     height: 23px;
     margin-top: 8px;
 }
-#header-right{
-    width: 100%;
-    background-color: white;
-}
+#header-right{width: 30%;}
 #sigin{
     background-color: #3B83F6;
     margin: 0%;
-    width: 120px;
+    width: 48%;
     height: 40px;
     margin-right: 0;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+#bndal1{
+    position: absolute;
+    color: white;
+    top: 90px;
+}
+#bndal2{
+    position: absolute;
+    color: white;
+    top: 90px;
+    right: 14%;
 }
 #login{
     background-color: #bbd9ba;
-    width: 120px;
+    width: 48%;
     height: 40px;
     margin: 0;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 header{
     display: inline-flex;
@@ -92,6 +98,13 @@ header p{
     top: 80px;
     left: 32%;
 }
+.paksaz{
+    position: absolute;
+    top: 64px;left: 31.2%;
+    color: white;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+}
 nav{
     background-color: #DCBFFF;
     display: inline-block;
@@ -119,8 +132,12 @@ nav a{
 select{
     border-color: #DCBFFF;
     background-color: #DCBFFF;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     width: 15%;
+    height: 15px;
     color: #334755;
+    padding: 0%;
     text-align: right;
 }
 nav a:hover{
