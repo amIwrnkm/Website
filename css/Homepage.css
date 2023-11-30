@@ -15,7 +15,7 @@ body{
 article{
     display: inline-block;
     width: 50%;
-    border-radius: 25px;
+    border-radius: 10px;
     height: 1200px;
     padding: 10px;
     margin: 2px;
@@ -28,13 +28,13 @@ aside{
     width: 20%;
     background-color: #DCBFFF;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 10px;
     margin: 2px;
     margin-right: 10%;
 }
 #atop{
     text-align: right;
-    border-radius: 25px;
+    border-radius: 10px;
     background-color: #D0A2F7;
     height: 250px;
     padding: 10px;
@@ -55,10 +55,10 @@ aside{
     font-size: 14px;
     right: 20.1%;
 }
-.matn1{top: 355px;}
-.matn2{top: 470px;}
+.matn1{top: 350px;}
+.matn2{top: 465px;}
 #amain{
-    border-radius: 25px;
+    border-radius: 10px;
     background-color: #D0A2F7;
     height: 700px;
     padding: 10px;
@@ -66,7 +66,7 @@ aside{
     margin-top: 70px;
 }
 #abuttom{
-    border-radius: 25px;
+    border-radius: 10px;
     background-color: #D0A2F7;
     height: 70px;
     padding: 10px;

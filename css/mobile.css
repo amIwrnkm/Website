@@ -1,12 +1,11 @@
-aside{
-    display: none;
-}
-article{
-    width: 80%;
+header{width: 91.5%;margin-left: 0%;margin-right: 0%;}
+nav{width: 87%;}
+nav a{
+    font-size: 16px; font-weight: normal;
     margin: 10px;
 }
-
+aside{display: none;}
+article{width: 80%; margin: 10px;}
 #search-box{width: 23%;}
 #logosite{width: 95%;height: 80px;}
-
-.paksaz{left: 30%;}
+#footer-center{display: none;}

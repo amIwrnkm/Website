@@ -1,3 +1,7 @@
-.matn1,.matn2{
+.photo-maghale, .Jodasaz{
     display: none;
 }
+.matn1 , .matn2{
+    right: 12.8%;
+}
+#footer-center{display: none;}

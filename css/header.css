@@ -5,30 +5,18 @@ a   {text-decoration: none;
     height: 23px;
     margin-top: 8px;
 }
-#header-right{width: 30%;}
 #sigin{
     background-color: #3B83F6;
     margin: 0%;
-    width: 48%;
+    width: 75px;
     height: 40px;
     margin-right: 0;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
-#bndal1{
-    position: absolute;
-    color: white;
-    top: 90px;
-}
-#bndal2{
-    position: absolute;
-    color: white;
-    top: 90px;
-    right: 14%;
-}
 #login{
     background-color: #bbd9ba;
-    width: 48%;
+    width: 75px;
     height: 40px;
     margin: 0;
     border-top-right-radius: 25px;
@@ -53,10 +41,7 @@ header{
     font-weight: bold;
     opacity: 0.7; 
 }
-header p{
-    display: inline-block;
-    margin-left: 10px;
-}
+header p{display: inline-block;}
 #logosite{
     width: 85px;
     height: 85px;
@@ -67,8 +52,9 @@ header p{
     margin: 10px;
 }
 #Search-icon{
+    all: unset;
     position: absolute;
-    top: 77px;
+    top: 80px;
     left: 32%;
     background-color: none;
     border-radius: 25px;
@@ -98,13 +84,6 @@ header p{
     top: 80px;
     left: 32%;
 }
-.paksaz{
-    position: absolute;
-    top: 64px;left: 31.2%;
-    color: white;
-    border-bottom-right-radius: 20px;
-    background-color: white;
-}
 nav{
     background-color: #DCBFFF;
     display: inline-block;
@@ -114,27 +93,30 @@ nav{
     margin-bottom: 30px;
 }
 nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 0%;
     list-style-type: none;
     direction: rtl;
-    display: flex;
-    justify-content: center;
+}
+nav li{font-size: 22px; margin: 0%;margin: 2%;
 }
 nav a{
+    width: 95px;
     font-family: B Titr;
+    margin: 10px;
     font-weight: bold;
     font-size: 18px;
-    width: 12%;
-    margin: 2%;
     text-decoration: none;
     color: white;
 }
 select{
     border-color: #DCBFFF;
     background-color: #DCBFFF;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    width: 15%;
+    margin: 0;
+    width: 15px;
     height: 15px;
     color: #334755;
     padding: 0%;
@@ -143,8 +125,8 @@ select{
 nav a:hover{
     background-color: white;
     color: #334755;
-    border-radius: 25px;
-    width: 12%;
+    border-radius: 18px;
+    width: 95px;
 }
 nav a:hover select{
     background-color: white;
