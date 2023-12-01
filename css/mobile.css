@@ -1,11 +1,11 @@
-header{width: 91.5%;margin-left: 0%;margin-right: 0%;}
-nav{width: 87%;}
-nav a{
-    font-size: 16px; font-weight: normal;
-    margin: 10px;
-}
+header{width: 91.5%;margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 65px;}
+nav{display: none;}
 aside{display: none;}
 article{width: 80%; margin: 10px;}
-#search-box{width: 23%;}
 #logosite{width: 95%;height: 80px;}
 #footer-center{display: none;}
+#header-center{display: none;}
+#nav123{display: block;width: 30%; text-align: left;}
+#nav123-asl{display: none;}

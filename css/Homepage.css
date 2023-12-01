@@ -83,14 +83,14 @@ aside{
     background-color: #D0A2F7;
     border-radius: 25px;
 }
-div>div{
+#bottom>div{
     border-radius: 10px;
     background-color: #E5D4FF;
     display: inline-block;
     width: 20%;
     height: 60%;
 }
-div>div>p{
+#bottom>div>p{
     text-align: center;
     float: right;
     margin: 10px;
@@ -98,7 +98,7 @@ div>div>p{
 .BData{
     float: left;
 }
-div img{
+#bottom img{
     width: 90%;
     height: 75%;
 }
@@ -111,3 +111,4 @@ div img{
     margin-top: 0%;
     margin-bottom: 0%;
 }
+#nav123{display: none;}

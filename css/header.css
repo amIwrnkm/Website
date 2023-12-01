@@ -42,10 +42,7 @@ header{
     opacity: 0.7; 
 }
 header p{display: inline-block;}
-#logosite{
-    width: 85px;
-    height: 85px;
-}
+.logosite{width: 85px;height: 85px;}
 #header-center{
     width: 35%;
     float: right;
@@ -84,6 +81,7 @@ header p{display: inline-block;}
     top: 80px;
     left: 32%;
 }
+.nav123{display: none;}
 nav{
     background-color: #DCBFFF;
     display: inline-block;
@@ -112,16 +110,6 @@ nav a{
     text-decoration: none;
     color: white;
 }
-select{
-    border-color: #DCBFFF;
-    background-color: #DCBFFF;
-    margin: 0;
-    width: 15px;
-    height: 15px;
-    color: #334755;
-    padding: 0%;
-    text-align: right;
-}
 nav a:hover{
     background-color: white;
     color: #334755;
@@ -137,4 +125,11 @@ option{
     font-family: B nazanin;
     font-size: 20px;
     font-weight: bold;
+}
+.nav123{display: none;}
+
+#header-center{
+    width: 35%;
+    float: right;
+    margin: 10px;
 }

@@ -1,5 +1,5 @@
-const f = document.getElementById('header-center');
-const q = document.getElementById('search-box');
+const f = document.getElementById('search-hide');
+const q = document.getElementById('search-box-hide');
 const google = 'https://www.google.com/search?q=site%3A+';
 const site = 'TechnoZoom.ir';
 

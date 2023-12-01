@@ -8,50 +8,69 @@
     <link rel="stylesheet" href="/css/Homepage.css">
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/abuot.css">
+    <link rel="stylesheet" href="/css/aside.css">
     <link media="only screen and (min-width: 0px) and (max-width: 887px)" rel="stylesheet" href="/css/mobile.css">
-    <link media="only screen and (min-width: 887px) and (max-width: 1500px)" rel="stylesheet" href="/css/tablet.css">
     <link media="only screen and (min-width: 0px) and (max-width: 1000px)" rel="stylesheet" href="/css/eastesna.css">
+
 </head>
 <body>
     <header>
-        <div id="header-left">
-            <p><a href="/index.html"><img src="/img/Logo.png" id="logosite" alt=""></a></p>
+        <div id="nav123">
+            <button class="button-mod" onclick="aside()">
+                <img id="another-mobail-mod" src="/img/another mobail mod.png">
+            </button>
+            <div id="nav123-asl">
+                <div>
+                    <button class="button-mod" onclick="close()"><img src="/img/X.png" id="X"></button>
+                </div>
+                <div id="n-h">
+                    <a href=""><img class="logosite" src="/img/Logo.png"></a>
+                </div>
+                <p class="Jodasaz"> </p>
+                <div>
+                    <form id="search-hide" role="search">
+                        <input type="search" id="search-box-hide" name="q" placeholder="جستوجو..." aria-label="Search through site content">
+                        <button id="Search-icon-hide"><img src="/img/Zoom.png" id="zoomimg-hide" alt=""></button>
+                    </form>
+                </div>
+                <p class="Jodasaz"> </p>
+                <div>
+                    <div id="n-fld">
+                        <ul>
+                            <a href="/index.html"><li>صفحه‌اصلی</li></a>
+                            <a href=""><li>مقاله</li></a>
+                            <a href=""><li>مشخصات</li></a>
+                            <a href="html/abuotpage.html"><li>درباره‌ما</li></a>
+                            <a id="end-nav-hide" href=""><li>ترفند‌ها</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <p class="Jodasaz"> </p>
+            </div>
         </div>
-        <div id="header-center-asl">
+        <div id="header-left">
+            <p><a href="/index.html"><img src="/img/Logo.png" class="logosite" alt=""></a></p>
+        </div> 
+        <div>
             <form id="header-center" role="search">
                 <input type="search" id="search-box" name="q" placeholder="جستوجو..." aria-label="Search through site content">
                 <button id="Search-icon"><img src="/img/Zoom.png" id="zoomimg" alt=""></button>
             </form>
         </div>
-            <div id="header-right">
-                <p id="bndal1"><a href="signin.html">sign</a></p>
-                <p id="bndal2"><a href="Login.html">logn</a></p>
-                <p id="sigin"><a href="signin.html"><img class="img" src="/img/sign.png" alt=""></a></p>
-                <p id="login"><a href="Login.html"> <img class="img" src="/img/logn.png" alt=""></a></p>
-            </div>
+        <div id="header-right">
+            <p id="sigin"><a href="html/signin.html"><img class="img" src="/img/sign.png" alt=""></a></p>
+            <p id="login"><a href="html/Login.html"> <img class="img" src="/img/logn.png" alt=""></a></p>
+        </div>
         </header>
-    <nav>
-        <ul>
-            <a href="/index.html"><li>صفحه‌اصلی</li></a>
-            <a href="#"><li>مشخصات
-                <select name="M">
-                    <a href="#"><option value="A">ایسر</option></a>
-                    <a href="#"><option value="A">لنوا</option></a>
-                    <a href="#"><option value="A">اپل</option></a>
-                    <a href="#"><option value="A">توف</option></a>
-                    <a href="#"><option value="A">گیمینگ</option></a>
-                    <a href="#"><option value="A">اقتصادی</option></a>
-                    <a href="#"><option value="A">تمام محصولات</option></a>
-                </select>
-            </li></a>
-            <a href="#"><li>مقال‌های‌جدید</li></a>
-            <a href="abuotpage.html"><li>درباره‌ما</li></a>
-            <a href="#"><li>ترفند</li></a>
-    </nav>
-
-
-
-    <section>
+        <nav>
+            <ul>
+                <a href="/index.html"><li>صفحه‌اصلی</li></a>
+                <a href="#"><li>مشخصات</li></a>
+                <a href="#"><li>مقال‌های‌</li></a>
+                <a href="html/abuotpage.html"><li>درباره‌ما</li></a>
+                <a href="#"><li>ترفند</li></a>
+        </nav>
+ <section>
         <div id="S">
             <p class="Jodasaz"> </p>
             <h2 class="titr">داستان شکل گیری تکنوزوم</h2>
@@ -111,7 +130,7 @@
             <p>:شماره تماس</p><p>09** **** **02</p>
             <p> :ایمیل<p>email@gamail.com</p></p>
         </div>
-        <div>
+        <div id="footer-center">
             <ul>
                 <p class="bold">بخش های سایت</p>
                 <a href="/index.html"><li>صفحه‌اصلی</li></a>
@@ -136,5 +155,6 @@
         </ul>
     </div>
     <script src="/js/search.js"></script>
+    <script src="/js/aside.js"></script>
 </body>
 </html>
