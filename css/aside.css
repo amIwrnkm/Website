@@ -19,7 +19,7 @@
     position: fixed;
     top: 0%;
     left: 0%;
-    height: 1000px;
+    height: 100%;
     width: 50%;
     margin: 0%;padding: 0%;
 }
@@ -30,9 +30,10 @@
     right: 3%;
 }
 #n-h{
-    margin-left: 30%;
-    margin-top: 12px;
+    width: 100%;
+    margin-top: 32px;
     margin-bottom: 10px;
+    text-align: center;
 }
 #n-fld a{
     text-align: right;
@@ -50,12 +51,12 @@
     color: #334755;
 }
 ::placeholder{font-size: 28px;}
-#n-fld{width: 250%;}
+#n-fld{width: 100%;}
 #Search-icon-hide{
     all: unset;
     position: absolute;
-    top: 16.5%;
-    left: 6%;
+    top: 165px;
+    left: 9%;
     background-color: none;
     border-radius: 25px;
     width: 0;
@@ -68,13 +69,19 @@
     all: unset;
     text-align: right;
     direction: rtl;
-    width: 180%;
+    width: 70%;
     padding-left: 30px;
     height: 35px;
     padding-right: 10px;
     border-radius: 25px;
     border-color: white;
     background-color: #E5D4FF;
-    margin-left: 10%;
+    margin-left: 8%;
     margin-top: 10px;
+}
+.button-mod2{
+    all: unset;
+    position: absolute;
+    left: 89%;
+    background-color: #D0A2F7;
 }

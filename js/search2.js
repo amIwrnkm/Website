@@ -1,15 +1,14 @@
-const f = document.getElementById('search-hide');
-const q = document.getElementById('search-box-hide');
-const google = 'https://www.google.com/search?q=site%3A+';
-const site = 'TechnoZoom.ir';
+const formElement = document.getElementById('search-hide');
+const searchBoxElement = document.getElementById('search-box-hide');
+const googleSearchURL = 'https://www.google.com/search?q=site%3A+';
+const siteToSearch = 'TechnoZoom.ir';
 
-
-function submitted(event) {
+function handleFormSubmission(event) {
   event.preventDefault();
-  const url = google + site + '+' + q.value;
-  const win = window.open(url, '_blank');
-  win.focus();
+  const searchURL = googleSearchURL + siteToSearch + '+' + searchBoxElement.value;
+  const newWindow = window.open(searchURL, '_blank');
+  newWindow.focus();
 }
 
+formElement.addEventListener('submit', handleFormSubmission);
 
-f.addEventListener('submit', submitted);
