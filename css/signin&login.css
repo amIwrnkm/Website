@@ -42,17 +42,15 @@ section div{
     padding-left: 35px;
     font: 100 arial;
 }
-#checkbox input{
-    margin-top: 8px;
-}
 #checkbox{
     width: 30%;
-    height: 30px;
+    height: 20px;
     background-color: #bfbcbc;
+    text-align: left;
     border-radius: 5px;
     float: left;
-    margin: 7%;
-    margin-top: 0%;
+    margin-left: 5px;
+    padding: 5px;
 }
 #sign{
     float: right;
@@ -110,6 +108,11 @@ a{
     text-decoration: none;
     font-size: 16px;
 }
-a:hover{
-    color: #323131;
+a:hover{color: #323131;}
+#bot{
+    width: 20px;height: 20px;border-radius: 5px;
+    position: relative;left: -15%;top: -22px;
+    background-color: #5a5959;
 }
+#eror{color: red;display: none;}
+#true{color: blue;display: none;}
