@@ -1,0 +1,26 @@
+h1{
+    font-weight: bold;
+    font-size: 35px;
+}
+.left-bottom li{
+    font-size: 22px;
+    margin: 10px;
+}
+section{
+    font-family: 'Franklin Gothic Medium';
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.left{
+    text-align: right;
+    direction: rtl;
+}
+.left-center{
+    margin-top: 50px;
+    font-size: 18px;
+}
+th ,td{border: 2px solid black;}
+.photokala{width: 400px;}
+.mini-photokala{width: 75px;}
+.left-bottom{margin-top: 50px;}
