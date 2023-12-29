@@ -54,6 +54,7 @@ aside{
     position: absolute;
     font-size: 14px;
     right: 20.1%;
+    color: #334755;
 }
 .matn1{top: 350px;}
 .matn2{top: 465px;}
@@ -95,9 +96,6 @@ aside{
     float: right;
     margin: 10px;
 }
-.BData{
-    float: left;
-}
 #bottom img{
     width: 90%;
     height: 75%;
@@ -112,3 +110,10 @@ aside{
     margin-bottom: 0%;
 }
 #nav123{display: none;}
+#bottom{font-family: B titr;}
+.English-txt{
+    font-family: Impact;
+    font-size: 22px;
+    color: #334755;
+}
+#bottom p{color: #334755;}
