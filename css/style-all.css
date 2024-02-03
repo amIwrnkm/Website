@@ -1,0 +1,48 @@
+body{text-align: center;}
+.asl{margin-top: 30px;}
+.logo-site1{width: 275px;}
+.logo-site2{width: 100px;}
+a{text-decoration: none;}
+.mini-img{width: 35px;}
+.bold{font-family: b titr;font-size: 22px;}
+.link-bold{font-family: b titr;font-size: 18px;}
+li{list-style: none;}
+
+/*==================footer==================*/
+footer{text-align: center; justify-content: center;}
+footer ul{margin-top: 45px; }
+footer li{font-family: b nazanin;font-size:22px;font-weight: bold;}
+/*==================footer==================*/
+
+nav a>p:hover{border-radius: 15px;}
+.link a{font-size: 16px;border-radius: 5px;}
+.underline{
+    display: inline-block;
+    text-align: center;
+    width: 99%;height: 2px;
+}
+
+/*==================aboutus==================*/
+.B-Kamran{font-family: b kamran;font-size: 25px;font-weight: bold;}
+.team-pic{width: 85px;clip-path: circle(50%);}
+.Name{font-family: b nazanin;font-size: 18px;font-weight: bold;}
+.team{justify-content: center;}
+.team-member{
+    border: 1px solid; border-radius: 25px;
+    margin: 10px;height: 250px;
+    padding-top: 70px;
+}
+/*==================aboutus==================*/
+
+.producte-img{width: 95%;}
+.product-Name{font-family: b nazanin;font-weight: bold;font-size: 22px;}
+.product-Price{font-size: 22px;}
+
+/*==================Products==================*/
+section{margin-top: 30px;}
+section div .bold{text-align: right;margin: 10px 0 10px 0;}
+.squere{width: 15px;margin: 0%;height: 40px;}
+section div{justify-content: center;}
+section .row div div{border: 2px solid;border-radius: 15px;}
+section .row .col-11, section .row .col-1{margin-top: 30px;}
+/*==================Products==================*/

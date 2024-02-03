@@ -1,8 +1,7 @@
-function aside(){
-    var aside = document.getElementById("nav123-asl");
-    aside.style.display= "block";
+var menu = document.getElementsByClassName("menu");
+function open(){
+    menu.style.display= "block";
 }
-function aside2(){
-    var aside = document.getElementById("nav123-asl");
-    aside.style.display= "none";
+function close(){
+    menu.style.display= "none";
 }

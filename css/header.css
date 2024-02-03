@@ -1,39 +1,9 @@
-a   {text-decoration: none;
-    color: white;}
-.img{
-    width: 25px;
-    height: 23px;
-    margin-top: 8px;
-}
-#sigin{
-    background-color: #3B83F6;
-    margin: 0%;
-    width: 65px;
-    height: 40px;
-    margin-right: 0;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-}
-#login{
-    background-color: #bbd9ba;
-    width: 65px;
-    height: 40px;
-    margin: 0;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-}
-header{
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    color: #334755;
-    width: 75%;
-    height: 100px;
-    margin: 30px;
-    margin-bottom: 0%;
-    padding: 20px;
-    border-radius: 25px;
+header{padding: 10px;border-radius: 25px;}
+.photo-search{width: 30px;}
+.btn-search{
+    all: unset;
+    position: relative;
+    top: 34px;left:-42%;
 }
 ::placeholder{
     font-size: 30px;
@@ -41,95 +11,51 @@ header{
     font-weight: bold;
     opacity: 0.7; 
 }
-header p{display: inline-block;}
-.logosite{width: 85px;height: 85px;}
-#header-center{
-    width: 35%;
-    float: right;
-    margin: 10px;
-}
-#Search-icon{
+.input-search{
     all: unset;
-    position: absolute;
-    top: 80px;
-    left: 32%;
-    background-color: none;
-    border-radius: 25px;
-    width: 0;
-    height: 0;
-    background-color: white;
-    border-color: white;
-}
-#zoomimg{
-    margin-top: 7px;
-    margin-left: 5px;
-    width: 25px;
-    height: 23px;
-}
-#search-box{
-    all: unset;
-    position: absolute;
-    text-align: right;
     direction: rtl;
-    width: 26.25%;
-    padding-left: 30px;
-    height: 35px;
-    padding-right: 10px;
+    width: 100%;height: 40px;
+    padding: 5px;
+    padding-left: 10%;
     border-radius: 25px;
-    border-color: white;
-    background-color: #E5D4FF;
-    top: 80px;
-    left: 32%;
+    height: 30px;width: 90%;
+    text-align: right;
+    }
+.header-right{display: flex;}
+.header-right div{margin: 0px;padding: 2.5px;}
+.logo-site2{display: none;}
+.header-right{margin-top: 25px;}
+.sign{width: 50%;border-radius: 20px 0 0 20px;}
+.logn{width: 50%;border-radius: 0 20px 20px 0;}
+
+nav>div{
+    justify-content: center;
+    text-align: center;
+    direction: rtl;
+    padding: 5px;
 }
-.nav123{display: none;}
 nav{
-    background-color: #DCBFFF;
-    display: inline-block;
-    width: 70%;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+    width: 90%;margin-left: 5%;height: 50px;
+    border-radius: 0 0 25PX 25px;
+    font-family: b titr;font-size: 22px;
     margin-bottom: 30px;
 }
-nav ul{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0%;
-    list-style-type: none;
-    direction: rtl;
-}
-nav li{font-size: 22px; margin: 0%;margin: 2%;
-}
-nav a{
-    width: 95px;
-    font-family: B Titr;
-    margin: 10px;
-    font-weight: bold;
-    font-size: 18px;
-    text-decoration: none;
-    color: white;
-}
-nav a:hover{
-    background-color: white;
-    color: #334755;
-    border-radius: 18px;
-    width: 95px;
-}
-nav a:hover select{
-    background-color: white;
-    color: #334755;
-    border-color: white;
-}
-option{
-    font-family: B nazanin;
-    font-size: 20px;
-    font-weight: bold;
-}
-.nav123{display: none;}
+nav p{margin-bottom: 0px;}
 
-#header-center{
-    width: 35%;
-    float: right;
-    margin: 10px;
+.meno-hide button{all: unset;}
+.meno-hide{margin-top: 32px;}
+
+.menu{
+    position: fixed;top: 0%;left: 0;
+    width: 60%;height: 100%;padding: 10px;
 }
+.menu-logo{width: 125px;margin-top: 30px;}
+.menu ul{list-style: none;text-align: right;font-size: 22px;}
+.menu li{margin-top: 25px;font-family: b titr;}
+.menu-btnclose{all: unset;
+    width: 10px;height: 10px;background-color: black;
+    border: 6px;border-color: black;border-style: dashed;
+    position: absolute;right: 10%;
+    clip-path: polygon(0 10%, 10% 0, 50% 40%,90% 0, 100% 10%,60% 50%,100% 90%,90% 100%,50% 60%,10% 100%, 0 90%, 40% 50%);
+}
+.menu{display: none;}

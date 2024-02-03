@@ -1,0 +1,14 @@
+body{background-color: #F0F0F0;color: #334755;}
+header{background-color: white;}
+.input-search{background-color: #E5D4FF;}
+a{color: #334755;}
+.sign{background-color:  #3B83F6;}.logn{background-color: #bbd9ba;}
+nav{background-color: #DCBFFF;}
+nav p, .menu a{color: white;}
+.menu{background-color: #D0A2F7;}
+nav a>p:hover{color: #334755;background-color: white;}
+footer a:hover{color: #3B83F6;}
+.link a:hover{background-color: #3B83F6;color: white;}
+.link-bold{color: #3B83F6;}
+.underline{background-color: #334755;}
+.squere{background-color: #D0A2F7;}
