@@ -55,18 +55,17 @@ include("../include/header.php");
 
     <div class="row team">
         <p class="col-12 bold" style="text-align: right;">تیم تکنوزوم</p>
-        <div class="col-12 col-md-3 team-member">
-            <img src="../img/my-pic.png" class="team-pic">
-            <p class="Name">جواد شاهسون</p>
-        </div>
-        <div class="col-12 col-md-3 team-member">
-            <img src="../img/my-pic.png" class="team-pic">
-            <p class="Name">عرفان راعی</p>
-        </div>
-        <div class="col-12 col-md-3 team-member">
-            <img src="../img/my-pic.png" class="team-pic">
-            <p class="Name">امیرحسین مومنی</p>
-        </div>
+        <?php
+        $team = array("جواد شاهسون", "عرفان راعی", "امیرحسین مومنی");
+            for ($i=0; $i < 3; $i++) { 
+                echo'<div class="col-12 col-md-3 team-member">
+                <img src="../img/ProfileDefualt.png" class="team-pic">
+                <p class="Name">'.$team[$i].'</p>
+                </div>';
+            }
+        ?>
+
+
     </div>
 
     <div class="underline"> </div>

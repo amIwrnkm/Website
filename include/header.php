@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/color-library.css">
     <link rel="stylesheet" media="only screen and (min-width: 0) and (max-width: 768px)" href="../css/mobail-mod.css">
     <link rel="stylesheet" href="../css/style-all.css">
+    <link rel="stylesheet" href="../css/products.css">
 </head>
 <body>
     <div class="container asl">
@@ -17,7 +18,7 @@
                 <div><button onclick="open()"><img class="mini-img" src="../img/another.png"></button></div>
             </div>
             <!--منوی حالت موبایل-->
-            <div class="d-none menu">
+            <div class="d-none d-sm-none menu">
                 <div>
                     <div><button onclick="close()" class="menu-btnclose"></button></div>
                     <a href="../index.html"><img src="../img/Logo2.png" class="menu-logo"></a><br>
@@ -28,7 +29,7 @@
                     <ul>
                         <li><a href="../index.html">صفحه‌اصلی</a></li>
                         <li><a href="../php/Products.php">محصولات</a></li>
-                        <li><a href="#">مقاله</a></li>
+                        <li><a href="#">سبدخرید</a></li>
                         <li><a href="../php/about.php">درباره‌ما</a></li>
                         <li><a href="#">صفحه‌اصلی</a></li>
                     </ul>
@@ -48,10 +49,10 @@
             <div class="col-4 col-sm-4 col-md-2">
                 <div class="header-right">
                     <div class="sign">
-                        <a href="#"><img src="../img/sign.png" class="mini-img"></a>
+                        <a href="../php/sign.php"><img src="../img/sign.png" class="mini-img"></a>
                     </div>
                     <div class="logn">
-                        <a href="#"><img src="../img/logn.png" class="mini-img"></a>
+                        <a href="../php/logn.php"><img src="../img/logn.png" class="mini-img"></a>
                     </div>
                 </div>
             </div>
@@ -60,7 +61,7 @@
             <div class="row">
                 <div class="col-2"><a href="../index.html"><p>خانه</p></a></div>
                 <div class="col-2"><a href="../php/Products.php"><p>محصولات</p></a></div>
-                <div class="col-2"><a href="#"><p>مقاله</p></a></div>
+                <div class="col-2"><a href="#"><p>سبدخرید</p></a></div>
                 <div class="col-2"><a href="../php/about.php"><p>درباره‌ما</p></a></div>
                 <div class="col-2"></div>
             </div>

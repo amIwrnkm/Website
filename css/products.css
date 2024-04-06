@@ -1,0 +1,19 @@
+.right{float: right;}
+.left{float: left;margin-top: 30px;text-align: right;}
+.photo-kala-big{width: 100%;}
+.photo-kala-mini{ width: 22.5%;}
+.left div{margin: 30px 25px;}
+.left-bottom li{list-style: circle;}
+.left-center , .left-bottom{font-weight: bold;font-size: 22px;}
+
+.main-kala{
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.photo-kala-mini:hover{
+    position: fixed;top: 0;left: 25%;
+    width: 50%;
+}
+.clear{clear: both;}
+.left{direction: rtl;}

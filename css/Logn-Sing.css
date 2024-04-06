@@ -1,5 +1,30 @@
-section>div{text-align: center;justify-content: center;}
-input{
-    margin: 10px;padding: 3px 3px 6px 6px;
-    border-radius: 15px;
+body{background-color: #F0F0F0;}
+section{
+    background-color: #575757;
+    
+    margin-top: 25px;
+    border: 2px solid black;
+    border-radius: 25px;
 }
+h1{color: black;}
+.main input{margin: 10px;}
+input{
+    padding: 3px 3px 6px 6px;
+    border-radius: 15px;
+    background-color: #F0F0F0;
+}
+input[type = submit]{
+    border-radius:  10px;
+}
+.row{
+    justify-content: center;
+    text-align: center;
+}
+.line{
+    background-color: black;
+    height: 1px;
+}
+::placeholder{
+    font-family: Comic Sans MS;
+}
+.footer a{text-decoration: none;color: #3B83F6;}

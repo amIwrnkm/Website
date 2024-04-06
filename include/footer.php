@@ -13,7 +13,7 @@
                     <li><p class="bold">بخش های سایت</p></li>
                     <li><a href="../index.html">صفحه‌اصلی</a></li>
                     <li><a href="../php/Products.php">محصولات</a></li>
-                    <li><a href="#">ورود</a></li>
+                    <li><a href="../php/logn.php">ورود</a></li>
                 </ul>
             </div>
             <div class="col-6 col-md-4">
@@ -35,6 +35,7 @@
             </div>
         </footer>
     </div>
-    <script src="/js/bootstrap.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/aside.js"></script>
 </body>
 </html>

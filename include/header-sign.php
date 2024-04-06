@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="../css/color-library.css">
 </head>
 <body>
-    <section class="container">
-        <div class="row">
-            <h2>Technozoom</h2>
+<section class="container col-10 col-sm-8 col-md-5">
+            <div class="row header">
+                <h1 class="col-12">Technozoom</h1>
+            </div>
+            <div class="line"></div>

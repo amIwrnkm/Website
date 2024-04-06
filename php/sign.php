@@ -1,19 +1,20 @@
 <?php
 include("../include/header-sign.php");
-?>
-            
-<form action="action.php" method="POST" name="register">
-    <input class="col-8 col-md-4" id="realname" type="text" placeholder="your name" name="realname"><br>
-    <input class="col-8 col-md-4" id="username" type="username" placeholder="username" name="username"><br>
-    <input class="col-8 col-md-4" id="email" type="email" placeholder="email" name="email"><br>
-    <input class="col-8 col-md-4" id="password" type="password" placeholder="password" name="password"><br>
-    <input class="col-8 col-md-4" id="repassword" type="password" placeholder="repassword" name="repassword"><br>
-
-    <input type="button" onclick="check()" value="sign in"/>
-</form>
-
-<a class="col-3" href="../php/logn.php">i have accunt</a>
-
+?>       
+            <div class="main row">
+                <form action="action-register.php" method="POST" name="register">
+                    <input class="col-12 col-md-8" id="realname" type="text" placeholder="your name" name="realname"><br>
+                    <input class="col-12 col-md-8" id="username" type="username" placeholder="username" name="username"><br>
+                    <input class="col-12 col-md-8" id="email" type="email" placeholder="email" name="email"><br>
+                    <input class="col-12 col-md-8" id="password" type="password" placeholder="password" name="password"><br>
+                    <input class="col-12 col-md-8" id="confirm" type="password" placeholder="confirm password" name="confirm"><br>
+                
+                    <input type="submit" value="sign in"/>
+                </form>
+            </div>
+            <div class="line"></div>
+            <div class="footer row">
+                <a class="col-6 col-sm-3" href="logn.php">i already have account</a>
 <?php
 include("../include/footer-sign.php");
 ?>
