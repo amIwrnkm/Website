@@ -45,3 +45,9 @@ section div{justify-content: center;}
 section .row div div{border: 2px solid;border-radius: 15px;}
 section .row .col-11, section .row .col-1{margin-top: 30px;}
 /*==================Products==================*/
+
+
+.header-right-login .mini-img{
+    clip-path: circle(50%);
+    width: 70px;
+}

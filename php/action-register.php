@@ -1,4 +1,5 @@
 <?php
+session_start();
 $flag =false;
 if( isset($_POST['realname']) && !empty($_POST['realname']) &&
     isset($_POST['username']) && !empty($_POST['username'])&&
@@ -26,17 +27,24 @@ if(mysqli_connect_errno())
 
 $query="INSERT INTO `users`(`realname`, `username`, `password`, `email`, `type`) VALUES ('$realname','$username','$password','$email','0')";
 if(mysqli_query($link, $query) === true)
-    echo("
-        <p style='color:green;direction: rtl;'><b>".$realname."
-        گرامی عضویت شما با نام کاربری ".$username."
-        در فروشگاه با موفقیت انجام شد
-        </b></p>");
+{
+   $_SESSION["state_login"] = true;
+   $_SESSION["realname"] = $realname;
+   $_SESSION["password"] = $password;
+   $_SESSION["email"] = $email;
+?>
+    ?><script>alert("عضویت شما با موفقیت انجام شد");</script><?php
+}
 else
-    echo("<P style='color:red;direction: rtl;'><b>عضویت شما در سایت انجام نشد</b></p>");
+{
+    ?> <script>alert("عضویت شما در سایت انجام نشد لطفا دوباره تلاش کنید");</script> <?php
+}
 
 mysqli_close($link);
 
 ?>
-
+<script>
+    location.replace("index.php");
+</script>
 
 

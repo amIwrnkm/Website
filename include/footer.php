@@ -11,7 +11,7 @@
             <div class="d-none d-md-block col-md-4">
                 <ul>
                     <li><p class="bold">بخش های سایت</p></li>
-                    <li><a href="../index.html">صفحه‌اصلی</a></li>
+                    <li><a href="../index.php">صفحه‌اصلی</a></li>
                     <li><a href="../php/Products.php">محصولات</a></li>
                     <li><a href="../php/logn.php">ورود</a></li>
                 </ul>
@@ -35,7 +35,7 @@
             </div>
         </footer>
     </div>
-    <script src="../js/bootstrap.js"></script>
     <script src="../js/aside.js"></script>
+    <script src="../js/search.js"></script>
 </body>
 </html>

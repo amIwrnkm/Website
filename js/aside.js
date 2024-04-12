@@ -1,7 +1,10 @@
-var menu = document.getElementsByClassName("menu");
-function open(){
-    menu.style.display= "block";
+
+function openMenu(){
+    let menu = document.querySelector(".menu");
+    menu.classList.remove('d-none');
+    menu.classList.add('d-block');
 }
-function close(){
-    menu.style.display= "none";
+function closeMenu(){
+    let menu = document.querySelector(".menu");
+    menu.classList.add('d-none');
 }
