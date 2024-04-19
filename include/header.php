@@ -13,6 +13,7 @@ session_start();
     <link rel="stylesheet" media="only screen and (min-width: 0) and (max-width: 768px)" href="../css/mobail-mod.css">
     <link rel="stylesheet" href="../css/style-all.css">
     <link rel="stylesheet" href="../css/products.css">
+    <link rel="stylesheet" href="../css/buy.css">
 </head>
 <body>
     <div class="container asl">
@@ -34,7 +35,7 @@ session_start();
                     <ul>
                         <li><a href="../index.php">صفحه‌اصلی</a></li>
                         <li><a href="../php/Products.php">محصولات</a></li>
-                        <li><a href="#">سبدخرید</a></li>
+                        <li><a href="../php/buy.php">سبدخرید</a></li>
                         <li><a href="../php/about.php">درباره‌ما</a></li>
                     </ul>
                 </div>
@@ -87,7 +88,7 @@ session_start();
             <div class="row">
                 <div class="col-2"><a href="../index.php"><p>خانه</p></a></div>
                 <div class="col-2"><a href="../php/Products.php"><p>محصولات</p></a></div>
-                <div class="col-2"><a href="#"><p>سبدخرید</p></a></div>
+                <div class="col-2"><a href="../php/buy.php"><p>سبدخرید</p></a></div>
                 <div class="col-2"><a href="../php/about.php"><p>درباره‌ما</p></a></div>
                 <div class="col-2"></div>
             </div>

@@ -1,7 +1,7 @@
 <?php include("../include/header.php"); ?>
 <div class="container main-kala">
 
-
+<form action="buy-action.php" method="post">
 <div class="col-12 col-md-4 right">
     <div class="col-12">
         <img class="photo-kala-big" src="../img/4080.png" alt="">
@@ -36,7 +36,11 @@
     </div>
 </div>
 <div class="clear"></div>
-
+<div class="buy-button">
+            <input type="text" name="id" id="id" value="4080" hidden>
+            <input type="submit" value="خرید">
+        </div>
+        </form>
 
 </div>
 <?php include("../include/footer.php"); ?>

@@ -1,0 +1,39 @@
+
+.buy-input
+{
+    all: unset; margin: 10px;background-color: rgb(118,120,184);
+    text-align: center;color: white;border-radius: 5px;height: 30px;
+}
+.buy{
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 15px;padding: 5px;
+}
+.img{width: 250px;}
+.sumbit div{
+    text-align: right;
+    margin-top: 30px;
+}
+.name{
+    font-size: 22px;font-family: B Titr;
+    font-weight: bold;margin-right: 15px;
+}
+.price{
+    font-weight: bold;font-size: 22px;font-family: b titr;
+    display: inline;margin-right: 15px;
+}
+.number{display: inline;}
+#finish{
+    width: 100%;
+}
+#min , #plus , #del{
+    width: 50px;height: 50px;
+    border-radius: 50%;
+}
+#del-all{
+    width: 100%;
+}
+.price-all{
+    margin: 10px;font-weight: bold;
+    text-align: center;
+}
