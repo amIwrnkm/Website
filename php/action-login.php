@@ -13,7 +13,7 @@ else
 
 $_SESSION["isFlag"] = false;
 
-$link =mysqli_connect("localhost", "root" ,"", "shop-db");
+include("../include/link.php");
 if(mysqli_connect_errno())
     exit("خطایی با شرح زیر رخ داده است".mysqli_connect_error());
 

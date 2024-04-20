@@ -15,7 +15,8 @@ $address = $_POST['address'];
     if(filter_var($email,FILTER_VALIDATE_EMAIL) === false)
     echo("<script>alert('پست الکتریکی وارد شده صحیح نیست');</script>");
 
-    $link =mysqli_connect("localhost", "root" ,"", "shop-db");
+ 
+include("../include/link.php");
 if(mysqli_connect_errno())
     echo("<script>alert('خطایی با شرح زیر رخ داده است'".mysqli_connect_error().");</script>");
 

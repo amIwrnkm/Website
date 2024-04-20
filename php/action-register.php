@@ -21,7 +21,7 @@ if( isset($_POST['realname']) && !empty($_POST['realname']) &&
     if(filter_var($email,FILTER_VALIDATE_EMAIL) === false)
     exit("پست الکترونیک وارد شده صحیح نیست");
 
-    $link =mysqli_connect("localhost", "root" ,"", "shop-db");
+    include("../include/link.php");
 if(mysqli_connect_errno())
     exit("خطایی با شرح زیر رخ داده است".mysqli_connect_error());
 

@@ -6,7 +6,7 @@ if($_SESSION["state_login"])
 {
     if(!($_SESSION["isFlag"]))
 {
-?><script>alert("کالایی وجود ندارد ابتدا کالایی اضافه کنید");location.replace("Products.php");</script><?php
+?><script>alert("کالایی وجود ندارد ابتدا کالایی اضافه کنید"); location.replace("Products.php");</script><?php
 }
 else{
 ?>
