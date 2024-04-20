@@ -9,9 +9,10 @@ $query="SELECT * FROM `products` WHERE `pro_code` = '$id';";
 $result =mysqli_query($link ,$query);
 
 $row = mysqli_fetch_array($result);
-$_SESSION["pro_image"] = $row["pro_image"];
-$_SESSION["pro_name"] = $row["pro_name"];
-$_SESSION["pro_price"] = $row["pro_price"];
+$_SESSION["isFlag"] = true;
+$_SESSION["pro_image{$_SESSIOB["count"]}"] = $row["pro_image"];
+$_SESSION["pro_name{$_SESSIOB["count"]}"] = $row["pro_name"];
+$_SESSION["pro_price{$_SESSIOB["count"]}"] = $row["pro_price"];
 mysqli_close($link);
 ?>
 <script>

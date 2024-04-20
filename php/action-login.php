@@ -11,6 +11,7 @@ else
     exit("برخی از فیلدها مقدار دهی نشده");
 
 
+$_SESSION["isFlag"] = false;
 
 $link =mysqli_connect("localhost", "root" ,"", "shop-db");
 if(mysqli_connect_errno())

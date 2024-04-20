@@ -1,4 +1,4 @@
-<?php include("../include/header.php");?>
+<?php include("../include/header.php"); $_SESSION["isFlag"] = false;?>
 <div class="container main-kala">
 
 <form action="buy-action.php" method="post">

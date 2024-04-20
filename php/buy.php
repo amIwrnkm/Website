@@ -1,12 +1,16 @@
 <?php
 include("../include/header.php");
 
+
 if($_SESSION["state_login"])
 {
-
-
+    if(!($_SESSION["isFlag"]))
+{
+?><script>alert("کالایی وجود ندارد ابتدا کالایی اضافه کنید");location.replace("Products.php");</script><?php
+}
+else{
 ?>
-
+<p style="font-family: b nazanin;color: rgb(96,96,96);">حداکثر خرید مجاز در سایت 1 کالا می باشد</p>
 <div style="direction: rtl;" class="container">
         <div class="buy row">
             <div class="col-12 col-md-4">
@@ -16,9 +20,7 @@ if($_SESSION["state_login"])
                 <div><p class="name"><?php echo("{$_SESSION["pro_name"]}"); ?></p></div>
                 <div style="margin-top: 60px;">
                     <p class="price"><?php echo("{$_SESSION["pro_price"]}"); ?> تومان</p><br>
-                    <div style="text-align: left;">
-                    <input class="buy-input" onclick="del()" type="button" id="del" name="del" value="حذف">
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -50,22 +52,24 @@ var i = 1;
             }
         }
         function delAll(){
-            remove.removeChild();
+            <?php $_SESSION["isFlag"] = false; ?>
+            location.replace("Products.php");
         }
         function finish(){
             alert("به زودی...");
         }
         function del(){
-            remove.removeChild();
         }
  </script>
 <?php
+}
 }
 else
 {
     ?>
     <script>
         alert("ابتدا در سایت ثبت نام کنید");
+        
         location.replace("sign.php");
     </script>
     <?php
