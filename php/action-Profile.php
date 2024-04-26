@@ -20,11 +20,13 @@ include("../include/link.php");
 if(mysqli_connect_errno())
     echo("<script>alert('خطایی با شرح زیر رخ داده است'".mysqli_connect_error().");</script>");
 
-$query="UPDATE `users` SET `realname`='$realname',`username`='$username',`password`='$password',`email`='$email', `address` = '$address' WHERE `username`= '$username'";
+$query="UPDATE `users` SET `realname`='$realname',`username`='$username',`password`='$password',
+`email`='$email',`address`='$address'WHERE `username`='$username'";
+
 mysqli_query($link, $query);
-if(mysqli_query($link, $query) === true)
+$result = mysqli_query($link, $query);
+if($result === true)
 {
-   $_SESSION["state_login"] = true;
    $_SESSION["realname"] = $realname;
    $_SESSION["username"] = $username;
    $_SESSION["password"] = $password;

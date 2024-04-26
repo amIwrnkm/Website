@@ -1,7 +1,7 @@
 const f = document.querySelector('.search-box');
 const q = document.querySelector('.frm-search');
 const google = 'https://www.google.com/search?q=site%3A+';
-const site = 'TechnoZoom.ir';
+const site = 'technozoom.iapp.ir';
 
 
 function submitted(event) {

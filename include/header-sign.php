@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/Logn-Sing.css">
     <link rel="stylesheet" href="../css/color-library.css">
+    <link rel="icon" type="png" href="../img/Logo2.png">
 </head>
 <body>
 <section class="container col-10 col-sm-8 col-md-5">

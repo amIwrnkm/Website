@@ -14,6 +14,7 @@ session_start();
     <link rel="stylesheet" href="../css/style-all.css">
     <link rel="stylesheet" href="../css/products.css">
     <link rel="stylesheet" href="../css/buy.css">
+    <link rel="icon" type="png" href="../img/Logo2.png">
 </head>
 <body>
     <div class="container asl">

@@ -32,6 +32,7 @@ if(mysqli_query($link, $query) === true)
    $_SESSION["realname"] = $realname;
    $_SESSION["password"] = $password;
    $_SESSION["email"] = $email;
+   $_SESSION["isFlag"] = false;
 ?>
     ?><script>alert("عضویت شما با موفقیت انجام شد");</script><?php
 }

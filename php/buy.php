@@ -39,21 +39,9 @@ else{
  <script>
 const num = document.querySelector(".number");
 const remove = document.querySelector(".buy");
-var i = 1;
-        function plus(){
-            num.textContent++;
-            i++;
-        }
-        function minus(){
-            if(num.textContent != 1)
-            {
-                i--;
-                num.textContent = i;
-            }
-        }
+
         function delAll(){
-            <?php $_SESSION["isFlag"] = false; ?>
-            location.replace("Products.php");
+            location.replace("del-action.php");
         }
         function finish(){
             alert("به زودی...");

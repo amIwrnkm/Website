@@ -5,14 +5,14 @@ include("../include/link.php");
 if(mysqli_connect_errno())
     exit("خطایی با شرح زیر رخ داده است".mysqli_connect_error());
 
-$query="SELECT * FROM `products` WHERE `pro_code` = '$id';";
+$query="SELECT * FROM `CPU` WHERE `CPU-code` = '$id';";
 $result =mysqli_query($link ,$query);
 
 $row = mysqli_fetch_array($result);
 $_SESSION["isFlag"] = true;
-$_SESSION["pro_image{$_SESSIOB["count"]}"] = $row["pro_image"];
-$_SESSION["pro_name{$_SESSIOB["count"]}"] = $row["pro_name"];
-$_SESSION["pro_price{$_SESSIOB["count"]}"] = $row["pro_price"];
+$_SESSION["pro_image"] = $row["CPU-image"];
+$_SESSION["pro_name"] = $row["CPU-name"];
+$_SESSION["pro_price"] = $row["CPU-price"];
 mysqli_close($link);
 ?>
 <script>

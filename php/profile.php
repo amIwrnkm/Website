@@ -57,7 +57,6 @@
             </div>
         </form>
     </div>
-
     <script src="../js/profile.js"></script>
 </body>
 </html>

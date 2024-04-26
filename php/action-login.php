@@ -29,6 +29,7 @@ if($row)
     $_SESSION["username"] = $row["username"];
     $_SESSION["password"] = $row["password"];
     $_SESSION["email"] = $row["email"];
+    $_SESSION["isFlag"] = false;
 ?>
 <script>alert("کاربر گرامی بازگشت شما موفقیت آمیز بود");</script>
 <?php
