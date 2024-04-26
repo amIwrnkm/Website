@@ -38,6 +38,11 @@ session_start();
                         <li><a href="../php/Products.php">محصولات</a></li>
                         <li><a href="../php/buy.php">سبدخرید</a></li>
                         <li><a href="../php/about.php">درباره‌ما</a></li>
+
+                        <?php if($_SESSION["type"] == 1){ ?>
+                        <li><a href="../php/add.php">کالای‌جدید</a></li>
+                        <?php }?>
+
                     </ul>
                 </div>
             </div>
@@ -91,6 +96,13 @@ session_start();
                 <div class="col-2"><a href="../php/Products.php"><p>محصولات</p></a></div>
                 <div class="col-2"><a href="../php/buy.php"><p>سبدخرید</p></a></div>
                 <div class="col-2"><a href="../php/about.php"><p>درباره‌ما</p></a></div>
+
+                <?php if(isset($_SESSION["type"]) && $_SESSION["type"] == 1){ ?>
+                <div class="col-2"><a href="../php/add.php"><p>کالای‌جدید</p></a></div>
+                <?php
+                    }else{
+                ?>
                 <div class="col-2"></div>
+                <?php } ?>
             </div>
         </nav>

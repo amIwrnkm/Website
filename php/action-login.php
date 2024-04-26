@@ -30,6 +30,7 @@ if($row)
     $_SESSION["password"] = $row["password"];
     $_SESSION["email"] = $row["email"];
     $_SESSION["isFlag"] = false;
+    $_SESSION["type"] = $row["type"];
 ?>
 <script>alert("کاربر گرامی بازگشت شما موفقیت آمیز بود");</script>
 <?php
@@ -40,6 +41,7 @@ else
 <script>alert("کلمه عبور یا نام کاربری یافت نشد");</script>
 <?php
 }
+
 
 mysqli_close($link);
 
